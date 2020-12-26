@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* --- NAVEGADOR --- */
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 15vh;
+}
+
+.box-hamburguesa{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 5%;
+    height: 80%;
+}
+.btn-hamb{
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    height: 60%;
+}
+
+.box-logo{
+    display: flex;
+    align-self: center;
+    width: 15%;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    align-self: center;
+    width: 50%;
+    height: 80%;
+}
+.options{
+    display: flex;
+    align-items: center;
+}
+.p-options{
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(44, 43, 43);
+}
+a{
+    text-decoration: none;
+}
+
+.box-login{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+    height: 80%;
+    margin-left: 8%;
+}
+.btn-login{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.btn-login:hover{
+    background-color: lightskyblue;
+}
+.p-login{
+    align-self: center;
+    font-size: larger;
+}
+
+.box-search{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 5%;
+    height: auto;
+    margin-left: auto;   
+}
+.img-search{
+    width: auto;
+    height: auto;
+}
+/* FIN DE NAVEGADOR */
+
+
+/* --- CONTAINER --- */
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85vh;
+}
+
+/* SCROLL */
+.div-scroll{
+    width: 5vw;
+    height: 100%;
+    display: flex;
+}
+.bot-0{
+    position: absolute;
+    bottom: 8px;
+}
+.flecha{ 
+    display: flex;
+    margin: auto;
+}
+.text-scroll{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-bottom: 15px;
+}
+
+/* TEXT LANDING */
+.box-text{
+    width: 45vw;
+    /* height: 100%; */
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.title{
+    font-family: sans-serif;
+    font-size: 400%;
+    font-weight: bolder;
+    margin: 0;
+}
+.title::first-line{
+    font-size: 50%;
+}
+.text-landing{
+    text-align: left;
+}
+.read-more{
+    height: 10%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+}
+.read-more:hover{
+    background-color: lightskyblue;
+}
+
+/* PUNTOS */
+.puntos{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    margin-top: 14%;
+}
+
+/* IMAGEN */
+.box-img{
+    width: 50vw;
+    height: 100%;
+}
+.img-app{
+    height: 100%;
+}
